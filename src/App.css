@@ -1,0 +1,78 @@
+:root {
+  --color-primary: #282c34;
+  --color-secondary: #666;
+  --color-off-white: #f8f8f8;
+  --color-highlight: #eee;
+  --padding-section: 1rem;
+  --font-heading: "Bebas Neue", cursive;
+  --font-body: "Roboto", sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.app-header h1 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  margin: 1rem 0 0;
+}
+
+.app-header h2 {
+  color: var(--color-secondary);
+  font-size: 0.85rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.33rem;
+}
+
+.app-section-header {
+  padding: 0.5rem 1rem;
+  border: 1px solid #282c34;
+  margin: 0 0 2rem;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.app-link {
+  color: var(--color-primary);
+}
+
+.app-main {
+  display: flex;
+  flex: 1;
+  font-family: var(--font-body);
+}
+
+.app-input-form,
+.app-cv-output {
+  flex: 1;
+  padding: var(--padding-section);
+}
+
+.app-input-form {
+  background: var(--color-off-white);
+}
+
+.app-cv-output {
+  background: var(--color-highlight)
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0) 2%,
+      rgba(0, 0, 0, 0) 100%
+    );
+}
