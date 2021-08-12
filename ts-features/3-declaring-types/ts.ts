@@ -8,12 +8,14 @@ export {};
 const const1 = "Hello";
 const const2 = 33;
 const const3 = [1, 2, 3];
-const const4 = 10 + 5;
+const const4 = ["a", "b", "c"];
+const const5 = [1, "b", 3];
+const const6 = 10 + 5;
 
 // Let's practice writing THE WRONG types
 // Manually write the wrong for the variables below!
 
-const const5 = "Hello";
-const const6 = 33;
-const const7 = [1, 2, 3];
-const const8 = 10 + 5;
+const const7 = "Hello";
+const const8 = 33;
+const const9 = [1, 2, 3];
+const const10 = 10 + 5;

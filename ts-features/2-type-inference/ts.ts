@@ -1,6 +1,6 @@
 export {};
 
-// Vanilla JS type inference
+// TS type inference
 
 let let1 = 5;
 let let2 = "Hello";

@@ -4,7 +4,7 @@ export {};
 // Modern Editors/IDEs and linters help, but TS is helps a lot more
 
 // ===============
-// Example 1 - Access to non-existant properties
+// Example 1 - Access to non-existent properties
 // ===============
 const obj = { width: 3, height: 5 };
 const area = obj.width * obj.heigth;
