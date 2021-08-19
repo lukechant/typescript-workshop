@@ -13,7 +13,7 @@ interface Person {
   pets: string[];
 }
 
-// We apply use
+// JS Object
 const person1: Person = {
   name: "Brian",
   height: 6,
@@ -22,6 +22,7 @@ const person1: Person = {
   pets: "cat",
 };
 
+// JS Object
 const person2: Person = {
   name: "James",
   height: "5 foot, 11 inches",
@@ -37,3 +38,6 @@ const person2: Person = {
 // Create a new person object using the Person interface below, and try to add a new field
 
 // <-- CREATE person3 HERE -->
+
+// 3.
+// Create your own new interface and create an object based on it
