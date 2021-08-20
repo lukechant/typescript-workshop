@@ -1,5 +1,3 @@
-export {};
-
 // Type inference is great as it saves you manually declaring the types, but some types, i.e. objects or types which might change, are difficult for TS to infer
 
 // Let's practice writing types

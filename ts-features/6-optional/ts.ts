@@ -1,5 +1,3 @@
-export {};
-
 // Optional Parameters / Properties
 // VSCode uses TypeScript to infer the types here! JS won't do it by default
 

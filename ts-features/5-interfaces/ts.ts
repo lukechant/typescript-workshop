@@ -1,5 +1,3 @@
-export {};
-
 // Interfaces
 
 // We can create a TypeScript interface to create a 'contract' for the data it oversees

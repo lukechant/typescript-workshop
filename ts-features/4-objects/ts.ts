@@ -1,5 +1,3 @@
-export {};
-
 // Objects
 
 const myObject = {
