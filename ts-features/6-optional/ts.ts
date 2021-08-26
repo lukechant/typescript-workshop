@@ -7,6 +7,7 @@
 
 interface Saved {
   highScore?: number;
+  levelsComplete?: number;
 }
 
 interface GameData {
@@ -18,6 +19,7 @@ interface GameData {
 const gameData: GameData = {
   score: 0,
   timeTaken: 60,
+  //saved: [1, 2, 3],
   // highScore is not declared, but the GameData interface lets TS know that it could exist, but is currently undefined
   averageScore: 10, // this isn't in our interface, so TS will shout at us
 };

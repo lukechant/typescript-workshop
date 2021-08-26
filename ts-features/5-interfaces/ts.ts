@@ -1,7 +1,8 @@
 // Interfaces
 
-// We can create a TypeScript interface to create a 'contract' for the data it oversees
-// The convention is to use Pascal case for the first letter of the interface (capital letter for each word)
+// We can create a TypeScript interface to create a 'contract' for the data it oversees, essentially everything that agrees to the contract must adhere to it's structure
+
+// Note: The convention for interfaces is to use Pascal case for the first letter of the interface (capital first letter for each word)
 
 interface Person {
   name: string;
@@ -24,7 +25,7 @@ const person1: Person = {
 const person2: Person = {
   name: "James",
   height: "5 foot, 11 inches",
-  age: 22,
+  age: "22",
   occupation: "astronaut",
   pets: ["cat", "dog", "fish"],
 };

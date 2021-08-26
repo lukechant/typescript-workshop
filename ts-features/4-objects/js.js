@@ -11,7 +11,7 @@ const myObject = {
 };
 
 // 1.
-// What will the output of myObject.d be?
+// What will the output of myObject.z be?
 console.log({ z: myObject.z });
 
 // 2.

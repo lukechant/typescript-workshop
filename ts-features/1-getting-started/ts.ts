@@ -15,10 +15,11 @@ console.log({ area });
 // ===============
 // Example 2 - Type coercion
 // ===============
-const isEqual = "" == 0;
+const isEqual = "" == 0; // 🤔 is this ts(2367) a bug?
+const isEqualYet = "" === 0;
 
 // Are these two items equal?
-console.log({ isEqual });
+console.log({ isEqual, isEqualYet });
 
 // ===============
 // Example 3 - Operations

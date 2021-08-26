@@ -1,0 +1,41 @@
+.form fieldset {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.form legend {
+  font-family: var(--font-heading);
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form input[type="submit"] {
+  background-color: red;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  padding: 10px;
+}
+
+.form input[type="submit"]:hover {
+  background-color: green;
+}
+
+.form input[type="number"],
+.form input[type="text"] {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.form .label-text {
+  display: inline-block;
+  width: 40%;
+  font-size: 0.8rem;
+}

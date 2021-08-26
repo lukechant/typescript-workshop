@@ -13,3 +13,6 @@ const { score, timeTaken, highScore } = newGameData; // destructure our required
 console.log(
   `My score is: ${score}, it took me ${timeTaken}, and my high score is ${highScore}`
 );
+
+// If you run this js file in the terminal, you'd see our game would likely be fairly buggy
+// If we don't know what a value on an object is, or what the type would be, it makes things difficult to predict...
