@@ -1,6 +1,7 @@
 :root {
   --color-primary: #282c34;
   --color-secondary: #666;
+  --color-border: #ccc;
   --color-off-white: #f8f8f8;
   --color-highlight: #eee;
   --padding-section: 1rem;

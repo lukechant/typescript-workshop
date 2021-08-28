@@ -10,7 +10,7 @@
 }
 
 .form label {
-  display: block;
+  display: flex;
   margin-bottom: 20px;
 }
 
@@ -32,10 +32,11 @@
 .form input[type="text"] {
   font-size: 1rem;
   padding: 5px;
+  flex: 0 0 33%;
 }
 
 .form .label-text {
   display: inline-block;
-  width: 40%;
-  font-size: 0.8rem;
+  width: 220px;
+  font-size: 1rem;
 }
