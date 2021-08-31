@@ -1,3 +1,4 @@
+export {}
 // Objects
 
 const myObject = {
@@ -27,4 +28,4 @@ const addingNumberValues: number = myObject.c + myObject.d;
 // Without changing the values of myObject...
 // How can we get the output of "myObject.c + myObject.d" to equal 3?
 
-const addingValuesTask: number = myObject.c + myObject.d;
+const addingValuesTask: number = myObject.c + Number(myObject.d);
