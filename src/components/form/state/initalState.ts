@@ -1,6 +1,4 @@
-import { IForm } from "./types";
-
-export const initialState: IForm = {
+export const initialState = {
   name: "",
   age: 0,
   employer1: {

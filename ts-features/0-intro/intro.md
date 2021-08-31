@@ -65,5 +65,7 @@ We've got:
 * **type alias** e.g. `type NumOrStr = number | string`
 * **interface** e.g. `interface Coordinates {x: number, y: number}`
 * **utility** e.g. `Partial<Type>`, `Required<Type>`, `Readonly<Type>`, etc...
+* **any** - where we're telling TypeScript we don't care about the types (should be avoided)
+* **unknown** - where we're telling TypeScript we can't know what the types are
 
 ...and more!

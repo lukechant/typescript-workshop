@@ -1,10 +1,6 @@
 import * as ActionTypes from "./constants";
-import { IAction, IForm } from "./types";
 
-export const formReducer = (
-  state: IForm,
-  { type, payload }: IAction
-): IForm => {
+export const formReducer = (state: any, { type, payload }: any) => {
   switch (type) {
     case ActionTypes.SET_NAME:
       return {

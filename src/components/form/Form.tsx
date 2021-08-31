@@ -1,4 +1,4 @@
-import { FC, SyntheticEvent, useReducer } from "react";
+import { FC, useReducer } from "react";
 import { formReducer } from "./state/reducer";
 import { initialState } from "./state/initalState";
 import { IFormPage } from "./Form.types";
@@ -9,7 +9,7 @@ export const Form: FC<IFormPage> = ({ setFormState }) => {
   const [state, dispatch] = useReducer(formReducer, initialState);
   const { name, age, employer1, employer2, employer3 } = state;
 
-  const handleSubmit = (event: SyntheticEvent) => {
+  const handleSubmit = (event: any) => {
     event.preventDefault();
     setFormState(state);
   };
