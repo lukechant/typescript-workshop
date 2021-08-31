@@ -25,3 +25,6 @@ console.log({ isEqual });
 // What do you expect the output to be?
 const weirdCalculation = 4 / [];
 console.log({ weirdCalculation });
+
+// ** NOTE: **
+// You can `cd` (change directory) into the correct folder and run `node js.js` in each folder to see the output of any .js file
